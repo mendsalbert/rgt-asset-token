@@ -25,6 +25,7 @@ function App() {
   const [contract, setContract] = useState(null);
   const [depositAmount, setDepositAmount] = useState("");
 
+  console.log(provider, signer);
   useEffect(() => {
     async function loadAccount() {
       try {
