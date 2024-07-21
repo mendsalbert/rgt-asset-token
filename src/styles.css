@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #121212;
+  margin: 0;
+  padding: 0;
+  color: #e0e0e0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #1e1e1e;
+  padding: 26px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.icon-placeholder {
+  margin-bottom: 20px;
+  color: #aaa;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.info p {
+  margin: 0;
+  padding: 0 10px;
+}
+
+.error {
+  color: #ff6b6b;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #333;
+  border-radius: 22px;
+  font-size: 20px;
+  width: 94%;
+  background-color: #333;
+  color: #fff;
+}
+
+.button {
+  padding: 15px 20px;
+  margin: 5px;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button.primary {
+  background-color: #1e88e5;
+  color: white;
+}
+
+.button.secondary {
+  background-color: #43a047;
+  color: white;
+}
+
+.button.primary:hover {
+  background-color: #1565c0;
+}
+
+.button.secondary:hover {
+  background-color: #2e7d32;
+}
+
+.button-icon {
+  margin-right: 10px;
+}
+
+p {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
